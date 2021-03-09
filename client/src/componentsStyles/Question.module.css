@@ -1,0 +1,99 @@
+/* * {
+  font-family: Georgia, serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+} */
+
+.qcontainer {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 20px;
+  margin: 40px 20%;
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  background: white;
+  padding: 15px 50px;
+  border-radius: 20px;
+  margin: 15px 20%;
+  font-size: 1.17em;
+  display: block;
+}
+
+.radios {
+  margin: 0 auto;
+  visibility: hidden;
+}
+
+.container:hover {
+  
+  background: #ddd;
+}
+
+/* .containeractive {
+  margin: 0 auto;
+  background: #6699cc;
+  padding: 15px 50px;
+  border-radius: 20px;
+  margin: 15px 20%;
+  font-size: 1.17em;
+  display: block;
+} */
+.container:active {
+  margin: 0 auto;
+  background: #6699cc;
+  padding: 15px 50px;
+  border-radius: 20px;
+  margin: 15px 20%;
+  font-size: 1.17em;
+  display: block;
+}
+/* undefined:focus{
+  background: blue;
+} */
+
+.buttons1 {
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 1% 4%;
+  font-size: 2em;
+  color: black;
+  background: #ffffff;
+  border: none;
+  margin: 0 2% 0 auto;
+}
+.buttons1:hover {
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 1% 4%;
+  font-size: 2em;
+  color: black;
+  background: #ddd;
+  border: none;
+  margin: 0 2% 0 auto;
+}
+
+.buttons2 {
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 1% 4%;
+  font-size: 2em;
+  color: black;
+  background: #ffffff;
+  border: none;
+  margin: 0 auto 0 2%;
+}
+.buttons2:hover {
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 1% 4%;
+  font-size: 2em;
+  color: black;
+  background: #ddd;
+  border: none;
+  margin: 0 auto 0 2%;
+}

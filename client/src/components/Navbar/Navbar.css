@@ -1,0 +1,51 @@
+.avatar__div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.avatar__div__li{
+    margin-left: 10px;
+}
+
+.avatar__div__h4{
+    color:white;
+    font-weight: lighter;
+    margin-top:5px
+}
+.avatar__div__heading{
+    color:white;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.drop--nav{
+    position: relative;
+    padding: 10px 0;
+}
+.drop--nav a{
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.drop--nav .drop-down{
+    position: absolute;
+    background: #CBCE91FF;
+    width: 100%;
+    width: calc(100% + 30px);
+    top: 50px;
+    display: none;
+    border-radius: 5px;
+    margin-top:10px
+}
+.drop--nav .drop-down li{
+    display: block;
+    margin: 15px;
+}
+
+.drop--nav:hover .drop-down{
+    display: block;
+    /* opacity: 0.8; */
+}
+
